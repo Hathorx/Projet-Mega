@@ -1,0 +1,353 @@
+@media only screen and (min-width: 426px) and (max-width: 739px) {
+	.nav-bar {
+		width: 100%;
+		height: 45px;
+		position: fixed;
+		background-color: #3B4348;
+		z-index: 9999;
+	}
+
+	.search {
+	    text-align: center;
+	    height: 45px;
+	    width: 65%;
+	    padding-top: 0;
+	    float: left;
+	    background-color: #24221F;
+
+	    img {
+		   	width: 20%;
+		    float: left;
+		    padding-top: 13px;
+		    padding-left: 20px;
+		    padding-right: 20px;
+	    }
+
+	    input {
+	    	margin-top: 9px;
+	    	width: 100px;
+	    }
+
+	    a {
+	    	float: left;
+	    	height: 46px;
+	    	width: 10%;
+	    	margin-top: 5px;
+    		margin-left: 0px;
+    	}
+	    .header__icon {
+		    position: relative;
+		    display: block;
+		    width: 50px;
+		    height: 46px;
+		    cursor: pointer;
+		}
+	    .header__icon:after {
+	    	content: '';
+	    	position: absolute;
+	    	display: block;
+	    	width: 1rem;
+	    	height: 0;
+	    	left: 15px;
+	    	box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; 
+	    }
+	}
+
+	.menu {
+		float: left;
+		margin-top: 0;
+	    height: 45px;
+	    width: 35%;
+	    background-color: #24221F;
+	}
+
+	.menu-nav {
+		height: 20px;
+		margin-top: 0;
+
+		ul {
+			li:nth-of-type(1) {
+				display: none;
+			}
+
+			li:nth-of-type(2) {
+				padding-left: 0;
+			}
+		}
+	}
+
+	.profile-section {
+		display: none;
+	}
+
+	.panel {
+		display: none;
+	}
+
+	.content {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.top {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.banner-description {
+		height: 150px;
+
+		h3 {
+			font-size: 40px;
+		}
+	}
+
+	.description {
+		width: 95%;
+		padding-left: 20px;
+	}
+
+	.date {
+		>p {
+			width: 150px;
+		}
+	}
+
+	.banner-description button {
+		background-color: #FEB41C;
+	    color: #FFF;
+	    float: right;
+	    font-weight: bold;
+	    border: none;
+	    margin-right: 70px;
+	    border-radius: 50px;
+	    padding: 16px 0;
+	    width: 300px;
+	    margin-top: 5px;
+	    cursor: pointer;
+	}
+
+	.bk {
+	    background-color: white;
+	    height: 140px;
+	    border: 1px solid lightgrey;
+	    border-radius: 3px;
+	}
+
+	.images {
+	    width: 50%;
+	    float: left;
+	    height: 120px;
+
+	    img:nth-of-type(1) {
+	        width: 100px;
+		    float: left;
+		    border: 1px solid lightgrey;
+		    margin-left: 7px;
+		    margin-top: 27px;
+	    }
+
+		img:nth-of-type(2) {
+			display: none;
+		}
+
+		img:nth-of-type(3) {
+			display: none;
+		}
+
+		img:nth-of-type(4) {
+			display: none;
+		}
+	}
+
+	.orga {
+	    width: 40%;
+    	height: 88%;
+    	float: right;
+    	margin-right: 0;
+
+    	img {
+    		margin-top: 33px;
+    		width: 70px;
+    		float: left;
+    		padding-right: 0;
+    	}
+	}
+
+	.organisator {
+		width: 52%;
+		margin-top: 20px;
+		float: right;
+	}
+
+	.games {
+		margin-left: 0px;
+	    width: 50%;
+	    height: 120px;
+	    float: left;
+
+	    p:nth-of-type(1) {
+	    	font-size: 14px;
+	    	margin-top: 55px;
+	    	margin-left: 0;
+	    }
+	}
+
+	.games button {
+		float: left;
+	    margin-top: -13px;
+	    color: #3f484d;
+	    margin-right: 0px;
+	    margin-left: 68px;
+	    padding: 4px 8px;
+	    display: block;
+	    border: 1px solid #5e7c88;
+	    border-radius: 50px;
+	    cursor: pointer;
+	    background-color: white;
+	}
+
+	.page {
+		width: 85%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.game-details {
+		width: 100%;
+	}
+
+	.pub {
+		display: none;
+	}
+
+	.nav {
+	    background-color: #5e7c88;
+	    border-top-left-radius: unset;
+	    border-top-right-radius: unset;
+	    height: 70px;
+
+	    ul {
+			list-style-type: none;
+			margin-top: 0px;	
+		    height: 20px;
+		    padding-top: 26px;
+		    padding-left: 15px;
+
+		    li:nth-of-type(1) {
+			    border-right: 2px solid #8ca1aa;
+			    color: white;
+			    padding-right: 20px;
+			    float: left;
+			    font-size: 16px;
+			    font-weight: bold;
+			    cursor: pointer;
+		    }
+
+		    li:nth-of-type(2) {
+		    	float: left;
+			    font-size: 16px;
+			    font-weight: bold;
+			    padding-left: 20px;
+			    padding-right: 20px;
+			    color: #aebdc3;
+			    border-right: 2px solid #8ca1aa;
+			    cursor: pointer;
+		    }
+
+		    li:nth-of-type(3) {
+		        width: 22%;
+			    float: left;
+			    font-size: 16px;
+			    font-weight: bold;
+			    color: #aebdc3;
+			    padding-left: 20px;
+			    cursor: pointer;
+		    }
+		}
+	}
+
+	.local {
+		width: 100%;
+		float: right;
+	}
+
+	.loca {
+		width: 220px;
+		float: left;
+	}
+
+	.friends {
+		display: none;
+	}
+
+	.material-2 {
+		height: 313px;
+	}
+
+	.manual {
+		width: 165px;
+
+		img {
+			float: left;
+		}
+
+		p {
+			float: left;
+			padding-right: 0;
+		}
+	}
+
+	.dices {
+		width: 230px;
+
+		p:nth-of-type(1) {
+			margin-left: 20px;
+		}
+	}
+
+	.drinks {
+		width: 130px;
+
+		img {
+			padding-right: 10px;
+		}
+
+		p {
+			margin-left: 0;
+		}
+	}
+
+	.need-2 {
+		height: 300px;
+	}
+
+	.dices-2 {
+		width: 230px;
+
+		p:nth-of-type(1) {
+			margin-left: 25px;
+		}
+	}
+
+	.food-2 {
+		width: 150px;
+
+		img {
+			padding-right: 0;
+		}
+	}
+
+	.drinks-2 {
+		width: 150px;
+
+		img {
+			padding-right: 0;
+		}
+
+		p {
+			margin-left: 0;
+		}
+	}
+}

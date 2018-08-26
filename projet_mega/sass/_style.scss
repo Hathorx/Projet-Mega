@@ -1,0 +1,862 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+.nav-bar {
+	float: left;
+	width: 15%;
+	height: 100%;
+	position: fixed;
+	background-color: #3B4348;
+}
+
+.search {
+	padding-top: 70px;
+    text-align: center;
+    height: 130px;
+    background-color: #24221F;
+
+    img {
+    	width: 55%;
+    }
+}
+
+.content {
+	float: right;
+	width: 85%;
+	background-color: #f0f3f5;
+
+	>p {
+		width: 88%;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 40px;
+	}
+}
+
+.top {
+	width: 88%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+
+input {
+	background-color: #24221F;
+	color: grey;
+    border: 1px solid lightgrey;
+    padding: 5px 5px 5px 14px;
+}
+
+.banner {
+	background-image: url('../Img/castle.jpg');
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 6px;
+	position: relative;
+	background-repeat: no-repeat;
+	height: 237px;
+}
+
+.banner-description {    
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 119px;
+    color: white;
+	background-color: #3B4348;
+	opacity: 0.9;
+
+	h3 {
+		font-size: 45px;
+		margin-top: 10px;
+		font-weight: bold;
+		margin-bottom: 0;
+	}
+
+	button {
+		background-color: #FEB41C;
+		color: #FFF;
+		float: right;
+		font-weight: bold;
+		border: none;
+		margin-right: 50px;
+		border-radius: 50px;
+	    padding: 18px 0;
+	    width: 300px;
+	    margin-top: -20px;
+	    cursor: pointer;
+	}
+}
+
+.description {
+	padding-left: 50px;
+	width: 60%;
+}
+
+.date {
+	>p {
+		font-size: 22px;
+		margin-top: 10px;
+		width: 18%;
+		float: left;
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+}
+
+.people {
+	float: left;
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 20px;
+    background-color: #FEB41C;
+
+	img {
+		padding-left: 13px;
+		width: 30%;
+	}
+
+	p {
+		margin-top: 0;
+		padding-left: 10px;
+		font-size: 15px;
+	}
+}
+
+.price {
+	margin-left: 17px;
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    line-height: 20px;
+
+    p {
+    	padding-left: 8px;
+    	font-size: 15px;
+    	margin-top: 12px;
+    }
+}
+
+.bubble-p {
+	margin-left: 17px;
+    color: white;
+    float: left;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 20px;
+
+    p {
+    	font-size: 29px;
+    	margin-top: 12px;
+    	padding-left: 13px;
+    }
+}
+
+.food {
+	margin-left: 17px;
+    color: white;
+    float: left;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 20px;
+
+    img {
+    	padding-left: 10px;
+		width: 50%;
+		margin-top: 5px;
+    }
+}
+
+.games {
+	margin-left: 55px;
+	width: 60%;
+	height: 120px;
+	float: left;
+
+	p:nth-of-type(1) {
+		float: left;
+		margin-top: 55px;
+		color: #3f484d;
+	}
+
+	p:nth-of-type(2) {
+		display: none;
+	}
+
+	strong {
+		color: #414a4f;
+	}
+}
+
+.games button {
+	display: none;
+}
+
+.orga {
+	float: right;
+	margin-right: 30px;
+    margin-top: 8px;
+    border-left: 1px solid lightgrey;
+    padding-left: 25px;
+    width: 15%;
+
+    img {
+        width: 40%;
+    	float: left;
+    	padding-right: 15px;
+    	margin-top: 10px;
+    }
+
+    >p {
+    	display: none;
+    }
+}
+
+.organisator {
+	width: 44%;
+	float: right;
+
+	p:nth-of-type(2) {
+	    font-size: 19px;
+    	color: #5e7c88;
+	}
+}
+
+.bk {
+	background-color: white;
+	height: 122px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+}
+
+.images {
+	width: 87%;
+	float: right;
+	height: 120px;
+
+	img {
+		width: 21%;
+		float: left;
+		border: 1px solid lightgrey;
+    	margin-left: 19px;
+    	margin-top: 13px;
+	}
+}
+
+.menu {
+	margin-top: -16px;
+}
+
+.menu-nav {
+	margin-top: -35px;
+	height: 20px;
+
+	ul {
+		list-style-type: none;
+
+		li:nth-of-type(1) {
+			float: left;
+			padding-left: 20px;
+		}
+
+		li:nth-of-type(2) {
+			float: left;
+			padding-left: 55px;
+		}
+
+		li:nth-of-type(3) {
+			float: left;
+			padding-left: 55px;
+		}
+
+		li:nth-of-type(4) {
+			display: none;
+		}
+
+		a {
+			display: none;
+		}
+	}
+
+	img {
+		width: 17px;
+	}
+}
+
+.profile-section {
+	height: 100px;
+}
+
+.profile {
+	height: 90px;
+	float: left;
+}
+
+.profile-pic {
+	width: 50px;
+    margin-left: 42px;
+    margin-top: 20px;
+
+    img:nth-of-type(1) {
+    	width: 50px;
+    }
+
+    img:nth-of-type(2) {
+    	margin-top: -10px;
+    	width: 20px;
+    	margin-left: 15px;
+    }
+}
+
+.profile-2 {
+	float: right;
+	width: 60%;
+	margin-top: 20px;
+
+	h3 {
+		color: #FFF;
+		float: left;
+		font-size: 17px;
+		margin-bottom: 0;
+	}
+
+	p {
+		color: #FEB41C;
+		float: left;
+		margin-top: 3px;
+	}
+
+	img {
+		width: 10px;
+	    float: right;
+	    margin-right: 25px;
+	    margin-top: -7px;
+	    cursor: pointer;
+	}
+}
+
+.panel {
+	ul {
+		list-style-type: none;
+		padding-left: 0px;
+
+		li {
+			color: #FFF;
+			border-top: 1px solid #60676b;
+		}
+	}
+}
+
+.social {
+    height: 50px;
+    padding-left: 56px;
+    padding-top: 5px;
+
+	img:nth-of-type(1) {
+		width: 20px;
+		float: left;
+		margin-top: 9px;
+	}
+
+	img:nth-of-type(2) {
+		width: 10px;
+		float: right;
+		cursor: pointer;
+		margin-right: 25px;
+		margin-top: 17px;
+	}
+
+	p {
+		float: left;
+		padding-left: 29px;
+	}
+}
+
+.party {
+    height: 50px;
+    width: 166px;
+    padding-left: 56px;
+    padding-top: 5px;
+
+	img {
+		width: 20px;
+		float: left;
+		margin-top: 7px;
+	}
+
+	p {
+		float: right;
+	}
+}
+
+.discover {
+    height: 50px;
+    width: 114px;
+    padding-left: 56px;
+    padding-top: 5px;
+
+	img {
+		width: 20px;
+		float: left;
+		margin-top: 10px;
+	}
+
+	p {
+		float: right;
+	}
+}
+
+.shop {
+    height: 50px;
+    width: 83px;
+    padding-left: 56px;
+    padding-top: 5px;
+
+	img {
+		width: 20px;
+		float: left;
+		margin-top: 13px;
+	}
+
+	p {
+		float: right;
+	}
+}
+
+.page {
+	width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.game-details {
+	width: 79.8%;
+	float: left;
+    background-color: white;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    color: #636b6f;
+}
+
+.nav {
+    background-color: #5e7c88;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 70px;
+
+	ul {
+		list-style-type: none;
+		margin-top: 0px;	
+	    height: 20px;
+	    padding-top: 26px;
+
+	    li:nth-of-type(1) {
+		    border-right: 2px solid #8ca1aa;
+		    color: white;
+		    padding-right: 40px;
+		    float: left;
+		    font-size: 19px;
+		    font-weight: bold;
+		    cursor: pointer;
+	    }
+
+	    li:nth-of-type(2) {
+	    	float: left;
+		    font-size: 19px;
+		    font-weight: bold;
+		    padding-left: 30px;
+		    padding-right: 30px;
+		    color: #aebdc3;
+		    border-right: 2px solid #8ca1aa;
+		    cursor: pointer;
+	    }
+
+	    li:nth-of-type(3) {
+	        width: 22%;
+		    float: left;
+		    font-size: 19px;
+		    font-weight: bold;
+		    color: #aebdc3;
+		    padding-left: 30px;
+		    cursor: pointer;
+	    }
+	}
+}
+
+.resume {
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.text {
+	float: left;
+	margin-bottom: 35px;
+
+	p {
+		margin-bottom: 0;
+		margin-top: 0;
+		line-height: 1.2;
+	}
+
+	strong {
+		color: #414a4f;
+	}
+}
+
+.local {
+	float: right;
+	width: 66%;
+	height: 92px;
+}
+
+.loca {
+	width: 33%;
+    float: right;
+    text-align: center;
+    border: 1px solid #5e7c88;
+    border-radius: 50px;
+
+	img {
+		width: 20px;
+		padding-left: 20px;
+	    float: left;
+	    padding-top: 10px;
+	}
+
+	p {
+		width: 45%;
+	}
+}
+
+.friends {
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.friends button {
+	border: 1px solid #5e7c88;
+	background-color: white;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+    color: #698590;
+    width: 270px;
+    float: right;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reserve {
+	padding-top: 10px;
+
+	img {
+		width: 30px;
+		float: left;
+		margin-top: 7px;
+		padding-right: 20px;
+	}
+
+	p {
+		color: #414a4f;
+	}
+}
+
+.localisation {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.local-title {
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+
+	img {
+		width: 21px;
+		float: left;
+		padding-right: 15px;
+	}
+
+	p {
+	    color: #414a4f;
+	    font-weight: bold;
+	    padding-top: 10px;
+	}
+}
+
+.plan {
+	width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    border: 1px solid #dedcd6;
+    background-image: url('../Img/staticmapgoogle.gif');
+}
+
+.material {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -35px;
+}
+
+.material-title {
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+
+	img {
+		width: 19px;
+		float: left;
+		padding-right: 15px;
+	}
+
+	p {
+	    font-weight: bold;
+	    padding-top: 6px;
+	    color: #414a4f;
+	}
+}
+
+.material-2 {
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 130px;
+}
+
+.manual {
+    width: 25%;
+    height: 51px;
+    margin-top: 30px;
+    background-color: #6ABC77;
+    border-radius: 6px;
+    float: left;
+    margin-right: 25px;
+
+    img {
+        width: 40px;
+	    height: 30px;
+	    padding-left: 15px;
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+    }
+
+    p {
+        float: right;
+	    padding-top: 4px;
+	    padding-right: 70px;
+	    color: #FFF;
+    }
+}
+
+.dices {
+    background-color: #6ABC77;
+    border-radius: 6px;
+    width: 30%;
+    float: left;
+    margin-top: 30px;
+    margin-right: 25px;
+
+	img {
+		width: 40px;
+	    height: 35px;
+	    float: left;
+	    padding-left: 15px;
+	    padding-top: 15px;
+	}
+
+	p:nth-of-type(1) {
+		width: 20%;
+		float: left;
+		margin-left: 50px;
+		margin-top: 25px;
+		color: #FFF;
+	}
+
+	p:nth-of-type(2) {
+		width: 20%;
+		float: left;
+		margin-left: 20px;
+		margin-top: 25px;
+		color: #FFF;
+	}
+}
+
+.drinks {
+    width: 20%;
+    float: left;
+    background-color: #6ABC77;
+    border-radius: 6px;
+    margin-top: 30px;
+
+	img {
+	    width: 40px;
+	    height: 40px;
+	    float: left;
+	    padding-top: 10px;
+	    padding-right: 20px;
+	    padding-left: 10px;
+	}
+
+	p {
+	    margin-left: 20px;
+	    width: 50%;
+	    float: left;
+	    color: #FFF;
+	}
+}
+
+.users {
+	width: 60%;
+	height: 70px;
+	float: left;
+
+	img {
+		width: 60px;
+		height: 60px;
+		float: left;
+		border-radius: 50px;
+		margin-right: 8px;
+	}
+}
+
+.need {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.need-title {
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+
+	img {
+	    width: 19px;
+	    float: left;
+	    padding-right: 15px;
+	}
+
+	p {
+	    font-weight: bold;
+	    padding-top: 6px;
+	    color: #414a4f;
+	}
+}
+
+.need-2 {
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 120px;
+}
+
+.dices-2 {
+    background-color: #3f484d;
+    border-radius: 6px;
+    width: 27%;
+    float: left;
+    margin-top: 30px;
+    margin-right: 25px;
+
+	img {
+		width: 40px;
+	    height: 35px;
+	    float: left;
+	    padding-left: 15px;
+	    padding-top: 15px;
+	}
+
+	p:nth-of-type(1) {
+		width: 20%;
+		color: #FFF;
+		float: left;
+		margin-left: 40px;
+	}
+
+	p:nth-of-type(2) {
+		color: #FFF;
+		width: 20%;
+		float: left;
+		margin-left: 20px;
+	}	
+}
+
+.food-2 {
+    float: left;
+    width: 20%;
+    background-color: #3f484d;
+    border-radius: 6px;
+    margin-top: 30px;
+    margin-right: 25px;
+
+	img {
+	    width: 40px;
+	    height: 30px;
+	    float: left;
+	    padding-top: 15px;
+	    padding-left: 10px;
+	    padding-right: 15px;
+	}
+
+	p {
+	    width: 60%;
+	    color: #FFF;
+    	float: left;	
+	}
+}
+
+.drinks-2 {
+    width: 22%;
+    float: left;
+    background-color: #3f484d;
+    border-radius: 6px;
+    margin-top: 30px;
+
+	img {
+	    width: 40px;
+	    height: 40px;
+	    float: left;
+	    padding-top: 10px;
+	    padding-right: 20px;
+	    padding-left: 10px;
+	}
+
+	p {
+	    margin-left: 20px;
+	    width: 50%;
+	    float: left;
+	    color: #FFF;
+	}
+}
+
+.pub {
+	float: right;
+    width: 19%;
+    border: 1px solid lightgrey;
+    background-color: white;
+    height: 1186px;
+    text-align: center;
+}
